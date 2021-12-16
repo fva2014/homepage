@@ -186,6 +186,10 @@ body {
   border-color: var(--border-color);
   border-style: solid;
 }
+.experiences__companies {
+  height: 535px;
+  overflow-y: scroll;
+}
 
 .experiences__company-header-durability {
   color: var(--durability-text-color);
