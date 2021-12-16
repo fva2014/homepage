@@ -31,7 +31,7 @@ body {
 .fv {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .resume {
@@ -183,7 +183,7 @@ body {
   padding: 5px;
   margin-bottom: 5px;
   border-width: 1px;
-  border-color: #111;
+  border-color: var(--border-color);
   border-style: solid;
 }
 
@@ -238,6 +238,15 @@ body {
   color: var(--secondary-text-color);
   text-align: left;
   margin-bottom: 20px;
+}
+
+.additional-info__education-university {
+  background-color: #f3f3f3;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-width: 1px;
+  border-color: var(--border-color);
+  border-style: solid;
 }
 
 .additional-info__education-university-durability {
