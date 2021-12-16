@@ -168,7 +168,15 @@ body {
   color: var(--secondary-text-color);
   text-align: justify;
 }
-
+.skills-info__item-icon-wrapper {
+  margin-right: 10px;
+  width: 20px;
+  display: inline-block;
+  justify-content: center;
+  vertical-align: middle;
+  height: 20px;
+  color: green;
+}
 .experiences {
   flex: 1 1 60%;
   margin-right: 50px;
